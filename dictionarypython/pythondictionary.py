@@ -30,4 +30,5 @@ if type(output) == list:
     for items in output:
         print(items)
 else:
+    print(2 + 2)
     print(output)
