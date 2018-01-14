@@ -17,9 +17,9 @@ def dictionary(w):
         if yn == 'y':
             return data[get_close_matches(w, data.keys())[0]]
         elif yn == 'n':
-            return 'The word doesnt match in the dictionary'
+            return "The word doesn't match in the dictionary"
         else:
-            return "You didnt input anything!!"
+            return "You didn't input anything!!"
     else:
         return "this word does not exist in the dictionary"
 
